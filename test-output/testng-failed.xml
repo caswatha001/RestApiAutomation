@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [rest API]">
+  <listeners>
+    <listener class-name="Resources.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="GetUsers(failed)">
+    <classes>
+      <class name="SumUp.getusers">
+        <methods>
+          <include name="localewithspace" invocation-numbers="0"/>
+          <include name="invalidlocale" invocation-numbers="0 1 2"/>
+          <include name="getproperty"/>
+          <include name="blanklocale"/>
+        </methods>
+      </class> <!-- SumUp.getusers -->
+    </classes>
+  </test> <!-- GetUsers(failed) -->
+</suite> <!-- Failed suite [rest API] -->

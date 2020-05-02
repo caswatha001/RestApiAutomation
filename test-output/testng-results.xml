@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="114" passed="109">
+  <reporter-output>
+  </reporter-output>
+  <suite name="rest API" duration-ms="29737" started-at="2020-05-02T03:47:44Z" finished-at="2020-05-02T03:48:14Z">
+    <groups>
+    </groups>
+    <test name="GetUsers" duration-ms="29314" started-at="2020-05-02T03:47:44Z" finished-at="2020-05-02T03:48:14Z">
+      <class name="SumUp.getusers">
+        <test-method status="PASS" signature="getproperty()[pri:0, instance:SumUp.getusers@7a3e5cd3]" name="getproperty" is-config="true" duration-ms="35" started-at="2020-05-02T03:47:45Z" finished-at="2020-05-02T03:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getproperty -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="4442" started-at="2020-05-02T03:47:45Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="280" started-at="2020-05-02T03:47:50Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="203" started-at="2020-05-02T03:47:50Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="157" started-at="2020-05-02T03:47:50Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="197" started-at="2020-05-02T03:47:50Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="253" started-at="2020-05-02T03:47:50Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="230" started-at="2020-05-02T03:47:51Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="216" started-at="2020-05-02T03:47:51Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="170" started-at="2020-05-02T03:47:51Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="246" started-at="2020-05-02T03:47:51Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="220" started-at="2020-05-02T03:47:52Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="232" started-at="2020-05-02T03:47:52Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="198" started-at="2020-05-02T03:47:52Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="205" started-at="2020-05-02T03:47:52Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="204" started-at="2020-05-02T03:47:52Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="217" started-at="2020-05-02T03:47:53Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="185" started-at="2020-05-02T03:47:53Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="177" started-at="2020-05-02T03:47:53Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="195" started-at="2020-05-02T03:47:53Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="197" started-at="2020-05-02T03:47:53Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="210" started-at="2020-05-02T03:47:54Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="184" started-at="2020-05-02T03:47:54Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="716" started-at="2020-05-02T03:47:54Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="144" started-at="2020-05-02T03:47:55Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="181" started-at="2020-05-02T03:47:55Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="167" started-at="2020-05-02T03:47:55Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="194" started-at="2020-05-02T03:47:55Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="150" started-at="2020-05-02T03:47:55Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="150" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="169" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="144" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="154" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="159" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="139" started-at="2020-05-02T03:47:56Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="198" started-at="2020-05-02T03:47:57Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="195" started-at="2020-05-02T03:47:57Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="198" started-at="2020-05-02T03:47:57Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="207" started-at="2020-05-02T03:47:57Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="186" started-at="2020-05-02T03:47:57Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="193" started-at="2020-05-02T03:47:58Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="229" started-at="2020-05-02T03:47:58Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="189" started-at="2020-05-02T03:47:58Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="262" started-at="2020-05-02T03:47:58Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="252" started-at="2020-05-02T03:47:58Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="244" started-at="2020-05-02T03:47:59Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="201" started-at="2020-05-02T03:47:59Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="224" started-at="2020-05-02T03:47:59Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="246" started-at="2020-05-02T03:47:59Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="235" started-at="2020-05-02T03:48:00Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="223" started-at="2020-05-02T03:48:00Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="223" started-at="2020-05-02T03:48:00Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="285" started-at="2020-05-02T03:48:00Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="validlocale(java.lang.String)[pri:1, instance:SumUp.getusers@7a3e5cd3]" name="validlocale" duration-ms="252" started-at="2020-05-02T03:48:01Z" description="User Generation with Uppercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="215" started-at="2020-05-02T03:48:02Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="247" started-at="2020-05-02T03:48:02Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="201" started-at="2020-05-02T03:48:03Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="232" started-at="2020-05-02T03:48:03Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="216" started-at="2020-05-02T03:48:03Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="272" started-at="2020-05-02T03:48:03Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="220" started-at="2020-05-02T03:48:04Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="207" started-at="2020-05-02T03:48:04Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="205" started-at="2020-05-02T03:48:04Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="171" started-at="2020-05-02T03:48:04Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="157" started-at="2020-05-02T03:48:04Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="146" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="166" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="162" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="173" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="175" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="221" started-at="2020-05-02T03:48:05Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="200" started-at="2020-05-02T03:48:06Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="187" started-at="2020-05-02T03:48:06Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="175" started-at="2020-05-02T03:48:06Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="200" started-at="2020-05-02T03:48:06Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="150" started-at="2020-05-02T03:48:06Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="154" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="168" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="137" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="166" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="142" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="128" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="207" started-at="2020-05-02T03:48:07Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="161" started-at="2020-05-02T03:48:08Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="166" started-at="2020-05-02T03:48:08Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="146" started-at="2020-05-02T03:48:08Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="165" started-at="2020-05-02T03:48:08Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="197" started-at="2020-05-02T03:48:08Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="159" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NP]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="156" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="181" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NZ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="138" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="173" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="164" started-at="2020-05-02T03:48:09Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="159" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="184" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="194" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RU]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="132" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="131" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="134" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="134" started-at="2020-05-02T03:48:10Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="126" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="148" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="124" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="157" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="176" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="PASS" signature="casesensitivelocale(java.lang.String)[pri:2, instance:SumUp.getusers@7a3e5cd3]" name="casesensitivelocale" duration-ms="142" started-at="2020-05-02T03:48:11Z" description="User Generation with Lowercase locale" data-provider="getlocale" finished-at="2020-05-02T03:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- casesensitivelocale -->
+        <test-method status="FAIL" signature="blanklocale()[pri:3, instance:SumUp.getusers@7a3e5cd3]" name="blanklocale" duration-ms="53" started-at="2020-05-02T03:48:12Z" description="User Generation with blank locale" finished-at="2020-05-02T03:48:12Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+at SumUp.getusers.blanklocale(getusers.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blanklocale -->
+        <test-method status="FAIL" signature="localewithspace(java.lang.String)[pri:4, instance:SumUp.getusers@7a3e5cd3]" name="localewithspace" duration-ms="18" started-at="2020-05-02T03:48:13Z" description="User Generation with space in locale characters" data-provider="localespace" finished-at="2020-05-02T03:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US  ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+at SumUp.getusers.localewithspace(getusers.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- localewithspace -->
+        <test-method status="FAIL" signature="invalidlocale(java.lang.String)[pri:5, instance:SumUp.getusers@7a3e5cd3]" name="invalidlocale" duration-ms="15" started-at="2020-05-02T03:48:13Z" description="User Generation with invalid locale" data-provider="Invalidlocale" finished-at="2020-05-02T03:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+at SumUp.getusers.invalidlocale(getusers.java:142)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlocale -->
+        <test-method status="FAIL" signature="invalidlocale(java.lang.String)[pri:5, instance:SumUp.getusers@7a3e5cd3]" name="invalidlocale" duration-ms="24" started-at="2020-05-02T03:48:13Z" description="User Generation with invalid locale" data-provider="Invalidlocale" finished-at="2020-05-02T03:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+at SumUp.getusers.invalidlocale(getusers.java:142)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlocale -->
+        <test-method status="FAIL" signature="invalidlocale(java.lang.String)[pri:5, instance:SumUp.getusers@7a3e5cd3]" name="invalidlocale" duration-ms="21" started-at="2020-05-02T03:48:14Z" description="User Generation with invalid locale" data-provider="Invalidlocale" finished-at="2020-05-02T03:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AS 125]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <400> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <400> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validate(ResponseSpecificationImpl.groovy:88)
+at io.restassured.internal.ValidatableResponseOptionsImpl.specification(ValidatableResponseOptionsImpl.java:311)
+at io.restassured.internal.ValidatableResponseOptionsImpl.spec(ValidatableResponseOptionsImpl.java:292)
+at SumUp.getusers.invalidlocale(getusers.java:142)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlocale -->
+        <test-method status="PASS" signature="nopayload()[pri:6, instance:SumUp.getusers@7a3e5cd3]" name="nopayload" duration-ms="40" started-at="2020-05-02T03:48:14Z" description="User Generation with no payload" finished-at="2020-05-02T03:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nopayload -->
+        <test-method status="PASS" signature="jsonschema(java.lang.String)[pri:7, instance:SumUp.getusers@7a3e5cd3]" name="jsonschema" duration-ms="215" started-at="2020-05-02T03:48:14Z" description="jsonschema validation" data-provider="jsonschemadata" finished-at="2020-05-02T03:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonschema -->
+      </class> <!-- SumUp.getusers -->
+    </test> <!-- GetUsers -->
+    <test name="pojoclasses" duration-ms="330" started-at="2020-05-02T03:48:14Z" finished-at="2020-05-02T03:48:14Z">
+      <class name="SumUp.Pojoclass_Validation">
+        <test-method status="PASS" signature="getproperty()[pri:0, instance:SumUp.Pojoclass_Validation@4693a9ef]" name="getproperty" is-config="true" duration-ms="1" started-at="2020-05-02T03:48:14Z" finished-at="2020-05-02T03:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getproperty -->
+        <test-method status="PASS" signature="jsonschema(java.lang.String)[pri:1, instance:SumUp.Pojoclass_Validation@4693a9ef]" name="jsonschema" duration-ms="322" started-at="2020-05-02T03:48:14Z" description="POJO Classes" data-provider="pojovalidation" finished-at="2020-05-02T03:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonschema -->
+      </class> <!-- SumUp.Pojoclass_Validation -->
+    </test> <!-- pojoclasses -->
+  </suite> <!-- rest API -->
+</testng-results>
